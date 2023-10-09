@@ -1,0 +1,804 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,{
+
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+/*header-section css code start*/
+
+.header-section{
+	padding: 15px 0px;
+	background: url(../img/body.png) center center no-repeat;
+	background-size: cover;
+}
+
+.header-section .logo-1{
+	margin-right: 5px;
+}
+
+.header-section .nav-link,.header-section .active{
+	color: #fffefe!important;
+}
+
+.header-section .nav-link:hover{
+	background: url(../img/logo3.png) center bottom no-repeat;
+}
+
+
+.header-section .content {
+	padding: 130px 0px;
+
+}
+
+
+.header-section .content span{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 600;
+	letter-spacing: 2px;	
+}
+
+.header-section .content h1{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 400;
+	padding-right: 32px;
+}
+
+.header-section .content p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 158px;
+	line-height: 28px;
+}
+
+.header-section .content .jora-button{
+	padding-top: 50px;
+}
+
+.header-section .content .jora-button .btn-primary{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 16px;
+	transition: .5s;
+}
+
+.header-section .content .jora-button .btn-primary:hover{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .content .jora-button .btn-info{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .content .jora-button .btn-info:hover{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	transition: .5s;
+}
+
+
+
+/*feauters-section code start here*/
+
+.feauters-section{
+	text-align: center;
+}
+
+.feauters-section .head-part{
+	margin-top: 50px;
+}
+
+.feauters-section .head-part h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.feauters-section .head-part h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 500;
+	text-transform: inherit;
+}
+
+.feauters-section .head-part1{
+	margin-top: 70px;
+}
+
+.feauters-section .head-part1 img{
+	margin-left: -55px;
+}
+
+.feauters-section .head-part1 .img-part1{
+	margin-top: 30px;
+}
+
+.feauters-section .img-part1 h5{
+	font-size: 25px;
+	color: #1a1a1a;
+	font-weight: 400;
+	text-transform: inherit;
+	margin-left: -45px;
+}
+
+
+.feauters-section .img-part1 p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 55px;
+	line-height: 25px;
+}
+
+
+.feauters-section .line{
+	border: 1px solid #ffe5e5;
+}
+
+
+
+/* beautiful-section  css code start*/
+
+.beautiful-section{
+	margin-top: 100px;
+}
+
+
+.beautiful-section .second-part{
+	margin-top: 50px;
+}
+
+
+.beautiful-section .second-part1{
+	margin-top: 30px;
+}
+
+
+
+.beautiful-section .second-part h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.beautiful-section .second-part h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 500;
+	text-transform: inherit;
+}
+
+.beautiful-section .second-part p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 55px;
+	line-height: 25px;
+	margin-top: 15px;	
+}
+
+.beautiful-section .second-part ul{
+	
+}
+
+.beautiful-section .second-part ul li{
+	margin-top: 15px;	
+}
+
+.beautiful-section .second-part ul li img{
+	margin-right: 10px;
+}
+
+.beautiful-section ul li span{
+	
+}
+
+
+
+
+/*super-section css code start*/
+
+
+.super-section{
+	background: #f2f2f2;
+	margin-top: 20px;
+
+}
+
+
+.super-section .third-part{
+	margin-top: 100px;
+}
+
+
+.super-section .third-part h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.super-section .third-part h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 400;
+	text-transform: inherit;	
+}
+
+
+.super-section .third-part p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 122px;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+
+
+
+/*pricing-section css code start*/
+
+.pricing-section{
+	padding: 50px 0px;
+	background: url(../img/bagkground1.png) center center no-repeat;
+	background-size: cover;
+}
+
+
+.pricing-section .title{
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+
+.pricing-section .title h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.pricing-section .title h2{
+	font-size: 36px;
+	color: white;
+	font-weight: 400;
+	text-transform: inherit;
+}
+
+
+.pricing-section .inner-part{
+
+}
+
+
+.pricing-section .inner-part p{
+    font-size: 24px;
+    color: white;
+    padding-right: 79px;
+    font-style: italic;
+}
+
+.pricing-section .inner-part .img-part{
+	display: flex;
+	align-items: center;
+}
+
+
+.pricing-section .inner-part .img-part img{
+	width: 100%;
+	height: auto;
+}
+
+
+.pricing-section .inner-part .img-part .content{
+ margin-left: 20px;
+}
+
+
+.pricing-section .inner-part .img-part .content p{
+    font-size: 16px;
+    color: white;
+}
+
+
+.pricing-section .inner-part .img-part .content h6{
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: -10px;	
+}
+
+
+.pricing-section .dot{
+	padding-top: 100px;
+}
+
+.pricing-section .dot ul{
+	text-align: center;
+}
+
+.pricing-section .dot ul li{
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	border: 1px solid #787879;
+	border-radius: 50%;
+	margin-left: 3px;
+	margin-right: 3px;
+	transition: .5s;
+}
+
+.pricing-section .dot ul li:hover{
+	background: white;
+	transform: scale(1.4);
+	border: none;
+	transition: .5s;
+}
+
+/* like section css code start */
+
+.like-section{
+	padding: 40px 0px;
+	background: black;
+}
+
+.like-section .left-p{
+    padding-left: 80px;
+}
+
+.like-section .left-p p{
+    font-size: 36px;
+    color: white;
+    font-weight: 500;	
+}
+
+.like-section .left-p p span{
+	font-size: 36px;
+    color: white;
+    font-weight: 200;
+}
+
+.like-section .jora-button{
+	margin-top: 7px;
+	margin-right: 16px;
+}
+
+.like-section .jora-button .btn-primary{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	transition: .5s;
+
+}
+
+.like-section .jora-button .btn-primary:hover{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	color: white;
+	transition: .5s;
+}
+
+.like-section .jora-button .btn-info{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 16px;
+	color: white;
+	transition: .5s;
+}
+
+.like-section .jora-button .btn-info:hover{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	transition: .5s;
+}
+
+
+/*review section code start*/
+
+.review-section{
+	padding: 50px 0px;
+}
+
+.review-section .title{
+	text-align: center;
+	margin-bottom: 65px;	
+}
+
+.review-section .title h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+}
+
+.review-section .title h2{
+	font-size: 36px;
+	color: black;
+	font-weight: 400;
+	text-transform: inherit;
+	margin: 0;
+}
+
+.review-section .price-card{
+	text-align: center;
+	border: 1px solid #b1b1b1;
+
+}
+
+
+.review-section .price-card .price-header{
+	border-bottom: 1px solid #b1b1b1;
+	padding-top: 30px;
+	padding-bottom: 17px;
+}
+
+
+.review-section .price-card .price-header h2{
+	font-size: 24px;
+	color: black;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.review-section .price-card .price-body,.price-body1,.price-body2,.price-body3{
+	position: relative;
+	border-bottom: 1px solid #b1b1b1;
+	padding: 12px 0px;
+}
+
+
+.review-section .price-card .price-body h1{
+	font-size: 48px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+
+.review-section .price-card .price-body1 h1{
+	font-size: 48px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+
+.review-section .price-card .price-body2 h1{
+	font-size: 48px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+.review-section .price-card .price-body3 h1{
+	font-size: 48px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+
+.review-section .price-card .price-body h1 span{
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 130px;
+	font-weight: 600;
+}
+
+.review-section .price-card .price-body1 h1 span{
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 117px;
+	font-weight: 600;
+}
+
+.review-section .price-card .price-body2 h1 span{
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 117px;
+	font-weight: 600;
+}
+
+.review-section .price-card .price-body3 h1 span{
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 117px;
+	font-weight: 600;
+}
+
+.review-section .price-card .price-body p{
+	color: #787879;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.review-section .price-card .price-footer{
+
+}
+
+.review-section .price-card .price-footer p{
+	color: #787879;
+	font-size: 18px;
+	padding: 46px 47px 20px;
+}
+
+.review-section .price-card .price-footer p a{
+
+}
+
+.review-section .price-card .price-footer .btn-info{
+	background: transparent !important;
+	border-color: #787879 !important;
+	border-radius: 4px !important;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 25px;
+	color: #008ed6;	
+}
+
+.price-card:hover .price-footer .btn-info{
+	background: #008ed6 !important;
+	color: white;
+}
+
+
+.price-card:hover .price-header h2{
+	color: #008ed6;
+}
+
+
+.price-card:hover .price-body{
+	background: #008ed6;
+}
+.price-card:hover .price-body1{
+	background: #008ed6;
+}
+.price-card:hover .price-body2{
+	background: #008ed6;
+}
+.price-card:hover .price-body3{
+	background: #008ed6;
+}
+
+.price-card:hover .price-body h1{
+	color: white;
+}
+.price-card:hover .price-body1 h1{
+	color: white;
+}
+.price-card:hover .price-body2 h1{
+	color: white;
+}
+.price-card:hover .price-body3 h1{
+	color: white;
+}
+
+
+.price-card:hover .price-body p{
+	color: white;
+}
+.price-card:hover .price-body1 p{
+	color: white;
+}
+.price-card:hover .price-body2 p{
+	color: white;
+}
+.price-card:hover .price-body3 p{
+	color: white;
+}
+
+
+
+
+/* contact section code start*/
+
+.contact-section{
+	background: #ededed;
+	margin-top: 10px;
+}
+
+.contact-section .title{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.contact-section .title h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+}
+
+.contact-section .title h2{
+	font-size: 36px;
+	color: black;
+	font-weight: 700;
+	text-transform: inherit;
+	margin: 0;
+}
+
+.contact-section .location{
+	text-align: center;
+	padding: 60px 0px;
+}
+
+.contact-section .location img{
+
+}
+
+
+
+.contact-section .location p{
+    margin-bottom: 0px;
+    color: #787879 ;
+}
+
+.contact-section .location .one-para{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #787879 ;
+}
+
+
+
+.contact-section .location .second-para{
+  margin-top: 0px;
+  color: #787879;
+}
+
+
+/*form section code start*/
+.form-part{
+	background: #ededed;
+}
+.form-part input{
+	 margin-bottom: 15px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #444348;
+}
+
+.form-part .submit{
+	text-align: right;
+	margin-top: 15px;
+
+}
+.form-part .btn-primary{
+    background: #008ed6!important;
+    border-color: #008ed6!important;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 25px;
+    border-radius: 1px;	
+}
+
+
+
+.form-part .form2{
+	background: #000;
+	padding: 40px 50px;
+	width: 50%;
+	margin: auto;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -70px;
+}
+
+
+textarea{
+    background: transparent;
+    border: 1px solid #444348;	
+
+}
+
+/*map section code start*/
+
+.map-section .map{
+    background: url(../img/googlemap.png) center center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+/*footer section code end*/
+
+.footer-section{
+	background: black;
+	 width: 100%;
+	 padding: 20px;
+}
+
+.footer-section .icon{
+	 text-align: center;
+}
+
+.footer-section .icon p{
+	color: #444348;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.footer-section .icon ul li{
+	 list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 25px;
+    margin-top: 20px; 
+}
+
+.footer-section .icon ul li i{
+   color: #444348;
+}
+
+.footer-section .icon ul li i:hover{
+   color: #008ed6;
+}
